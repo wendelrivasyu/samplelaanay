@@ -1,0 +1,75 @@
+<!-- gitHub Personal Access Token: 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 | 30 Days-->
+<!DOCTYPE html>
+<html>
+	<!-- head tag contains the details of HTML File -->
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>Zuitt - John Doe | Developer Portfolio</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+		<link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/headers/">
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="">
+
+	</head>
+	 <!-- Ctrl / -> create a COMMENT inside our code-->
+	 <!-- body tag contain the actual content of the HTML File that are visible to the browser -->
+	<body>
+
+		<nav class="topnav" id="myTopnav" align="center">
+		  <center><a class="" href="#landing" class="active">Home</a>
+		  <a href="#gallery">Gallery</a>
+		  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+		    <i class="fa fa-bars"></i></a>
+		  </a></center>
+		</nav>
+		<div class="container">
+			<br/><br/>
+		</div>
+		<!-- <h1>Hello World</h1></dialog> -->
+		<!-- create a container of your layout -->
+		<div class="container">
+			<section id="landing" class="mt-5 text-center bg-secondary" align="center">
+				<h1 style="padding-top: 50px;">John Doe</h1>
+				<h2>Full Stack Developer</h2>
+				<img src="images/my_image.jpg" class="img-fluid" style="padding-bottom: 50px;">
+			</section>
+
+			<section id="gallery" style="background-color: gray;"><br/><br/>
+				<div class="tools">
+					<h2>Language I Speack</h2>
+					<ul>
+						<li>HTML</li>
+						<li>CSS</li>
+					</ul>
+				</div>
+				<div class="tools">
+					<h2>Tools I Use</h2>
+					<ul>
+						<li>Git Bash Tirminal</li>
+						<li>Sublime Text</li>
+						<li>GitHub</li>
+						<li>Google Chrome</li>
+
+					</ul>
+				</div>
+				<br/><br/>
+			</section>
+		</div>
+	</body>
+	<script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+	<script>
+		function myFunction() {
+		  var x = document.getElementById("myTopnav");
+		  if (x.className === "topnav") {
+		    x.className += " responsive";
+		  } else {
+		    x.className = "topnav";
+		  }
+		}
+	</script>
+</html>
